@@ -70,7 +70,6 @@ const GameMsg = class {
 
 const Game = class {
   constructor(setting) {
-    debugger
     UTIL.prop(this, setting, {
       items: new WeakSet,
       msg2item: new WeakMap,

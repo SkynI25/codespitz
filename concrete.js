@@ -106,8 +106,6 @@ background-size:${bw}px ${bh}px`
     this.isAct = false
   }
   _add(item) {
-    debugger
-    console.log(item.object)
     this.stage.appendChild(item.object)
   }
   _remove(item) {
